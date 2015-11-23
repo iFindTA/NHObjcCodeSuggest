@@ -45,4 +45,6 @@ buildNumber=$(($buildNumber + 1))
 
 19，Release前去除无用的第三方库，eg. reveal etc.
 
-20，
+20，Release后一定记得**++在Git上Release一个版本Tag++** eg：V2.1.1 etc
+
+21，
