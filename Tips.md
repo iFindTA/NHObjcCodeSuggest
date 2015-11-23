@@ -23,7 +23,7 @@
 
 11，基本类型声明、运算时注意32bits、64bits适配
 
-12，在heightForRow中不推荐直接调用cellForRow，可以尝试使用[UITableView-FDTemplateLayoutCell](https://github.com/forkingdog/UITableView-FDTemplateLayoutCell)类库。
+12，在heightForRow中不推荐直接调用cellForRow，可以尝试使用[UITableView-FDTemplateLayoutCell](https://github.com/forkingdog/UITableView-FDTemplateLayoutCell)类库（与Masonry无关）或Masonry autoLayout布局。
 
 13，如无特殊需求不推荐直接使用delegate‘s window
 
