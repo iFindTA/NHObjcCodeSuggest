@@ -47,4 +47,6 @@ buildNumber=$(($buildNumber + 1))
 
 20，Release后一定记得**++在Git上Release一个版本Tag++** eg：V2.1.1 etc
 
-21，
+21，分页数据需要传递上一个id，不然会有重复数据
+
+22，
